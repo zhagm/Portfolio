@@ -20,6 +20,12 @@
       crossorigin="anonymous"
     />
 
+    <!-- Font Awesome -->
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
     <!-- styles.css -->
     <link rel="stylesheet" type="text/css" href="static/css/styles.css" />
 
@@ -53,7 +59,7 @@
         class="collapse navbar-collapse text-center"
         id="navbarSupportedContent"
       >
-        <ul class="navbar-nav ml-sm-auto">
+        <ul class="navbar-nav ml-lg-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#"
               >Home <span class="sr-only">(current)</span></a
@@ -70,11 +76,35 @@
     <div class="container">
       <div class="row">
         <div id="main-intro" class="col-lg-12 text-center">
-          Hello! My name is Zhag. I'm a JavaScript Developer living in San
-          Francisco, CA.
+          <div class="text-right">
+            Hello! My name is Zhag. I'm a JavaScript Developer living in San
+            Francisco, CA.
+          </div>
+
+          <!-- Mini Header Nav -->
+          <ul id="sub-nav" class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">about me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">let's chat!</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
