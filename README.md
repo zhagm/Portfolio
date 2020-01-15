@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-This is a simple static website showcasing my web projects. It's currently a work in progress but if you'd like to see a demo, you can find it [here](https://zhagm.github.io/Portfolio/)!
+This is a simple static website, made from scratch, showcasing my web projects. It's currently a work in progress but if you'd like to see it live, you can find the [demo here](https://zhagm.github.io/Portfolio/)!
 
 ## Installation
 
@@ -26,7 +26,7 @@ You can modify, customize, mess it up all you want now, enjoy!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+5. Submit a pull request :) :) :)
 
 ## Built With
 

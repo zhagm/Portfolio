@@ -1,0 +1,17 @@
+body {
+  background-color: #f6f6f6;
+  font-family: "Open Sans", sans-serif;
+}
+
+#main-intro {
+  font-family: "Lora", serif;
+  font-size: 30px;
+}
+
+#main-navbar li {
+  padding-right: 30px;
+}
+
+#main-intro {
+  padding-top: 10%;
+}
