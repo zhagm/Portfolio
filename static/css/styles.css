@@ -52,8 +52,7 @@ html {
 /* Hide Navbar */
 #main-navbar.navbar {
   opacity: 0.95;
-  transition: opacity 0.5s ease;
-  transition: top 0.5s ease;
+  transition: opacity 500ms ease;
   margin-top: 0px;
 }
 
@@ -107,4 +106,16 @@ html {
   opacity: 0.5;
   font-size: 10px;
   font-family: "Open Sans", sans-serif;
+}
+
+#social-nav a,
+i {
+  transition: color 500ms !important;
+}
+
+#social-nav a:hover,
+i:hover {
+  text-decoration: none;
+  color: #ff9a16 !important;
+  opacity: 1 !important;
 }
